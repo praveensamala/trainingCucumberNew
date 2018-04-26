@@ -21,7 +21,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I try to login using \"\u003cusername\u003e\" and \"password\"",
+  "name": "I try to login using \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -85,9 +85,10 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I try to login using \"gamecheck280@gmail.com\" and \"password\"",
+  "name": "I try to login using \"gamecheck280@gmail.com\" and \"system123\"",
   "matchedColumns": [
-    0
+    0,
+    1
   ],
   "keyword": "When "
 });
@@ -100,7 +101,7 @@ formatter.match({
   "location": "StepDefinitions.that_the_facebook_web_application_is_available()"
 });
 formatter.result({
-  "duration": 11121397179,
+  "duration": 9446245667,
   "status": "passed"
 });
 formatter.match({
@@ -110,26 +111,25 @@ formatter.match({
       "offset": 22
     },
     {
-      "val": "password",
+      "val": "system123",
       "offset": 51
     }
   ],
   "location": "StepDefinitions.i_try_to_login_using_and(String,String)"
 });
 formatter.result({
-  "duration": 2465955255,
+  "duration": 5789885123,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.i_should_be_able_to_login_to_the_application()"
 });
 formatter.result({
-  "duration": 441285728,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.cucumber.runner.StepDefinitions.i_should_be_able_to_login_to_the_application(StepDefinitions.java:63)\r\n\tat ✽.Then I should be able to login to the application(applogin1.feature:6)\r\n",
-  "status": "failed"
+  "duration": 537606453,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 736274846,
+  "duration": 968386264,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,9 +147,10 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I try to login using \"gamecheck380@gmail.com\" and \"password\"",
+  "name": "I try to login using \"gamecheck380@gmail.com\" and \"system123\"",
   "matchedColumns": [
-    0
+    0,
+    1
   ],
   "keyword": "When "
 });
@@ -162,7 +163,7 @@ formatter.match({
   "location": "StepDefinitions.that_the_facebook_web_application_is_available()"
 });
 formatter.result({
-  "duration": 9582789185,
+  "duration": 8553873392,
   "status": "passed"
 });
 formatter.match({
@@ -172,26 +173,26 @@ formatter.match({
       "offset": 22
     },
     {
-      "val": "password",
+      "val": "system123",
       "offset": 51
     }
   ],
   "location": "StepDefinitions.i_try_to_login_using_and(String,String)"
 });
 formatter.result({
-  "duration": 1676820903,
+  "duration": 1923651414,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.i_should_be_able_to_login_to_the_application()"
 });
 formatter.result({
-  "duration": 324267735,
+  "duration": 418646577,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.cucumber.runner.StepDefinitions.i_should_be_able_to_login_to_the_application(StepDefinitions.java:63)\r\n\tat ✽.Then I should be able to login to the application(applogin1.feature:6)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 807627515,
+  "duration": 844864173,
   "status": "passed"
 });
 formatter.scenario({
@@ -209,9 +210,10 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I try to login using \"gamecheck480@gmail.com\" and \"password\"",
+  "name": "I try to login using \"gamecheck480@gmail.com\" and \"system123\"",
   "matchedColumns": [
-    0
+    0,
+    1
   ],
   "keyword": "When "
 });
@@ -224,7 +226,7 @@ formatter.match({
   "location": "StepDefinitions.that_the_facebook_web_application_is_available()"
 });
 formatter.result({
-  "duration": 7205929143,
+  "duration": 7307675965,
   "status": "passed"
 });
 formatter.match({
@@ -234,26 +236,26 @@ formatter.match({
       "offset": 22
     },
     {
-      "val": "password",
+      "val": "system123",
       "offset": 51
     }
   ],
   "location": "StepDefinitions.i_try_to_login_using_and(String,String)"
 });
 formatter.result({
-  "duration": 1713520188,
+  "duration": 1924372952,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.i_should_be_able_to_login_to_the_application()"
 });
 formatter.result({
-  "duration": 321379868,
+  "duration": 470755383,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.cucumber.runner.StepDefinitions.i_should_be_able_to_login_to_the_application(StepDefinitions.java:63)\r\n\tat ✽.Then I should be able to login to the application(applogin1.feature:6)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 739995101,
+  "duration": 851324145,
   "status": "passed"
 });
 });
