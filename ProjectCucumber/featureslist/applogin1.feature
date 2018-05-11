@@ -8,5 +8,5 @@ Feature: login feature of the application
     Examples: 
       | username               | password  |
       | gamecheck280@gmail.com | system123 |
-      | gamecheck380@gmail.com | system123 |
-      | gamecheck480@gmail.com | system123 |
+#      | gamecheck380@gmail.com | system123 |
+#      | gamecheck480@gmail.com | system123 |
